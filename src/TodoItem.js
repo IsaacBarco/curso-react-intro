@@ -1,4 +1,4 @@
-function TodoItem(props){
+function TodoItem(props) {
   return (
     <li>
       <span>V</span>
