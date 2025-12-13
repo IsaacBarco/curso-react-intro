@@ -55,5 +55,6 @@
 }
 
 .TodoItem-text--completed {
-  color: #2c2c2c;
+  text-decoration: line-through;
+  color: #a0a0a0;
 }
