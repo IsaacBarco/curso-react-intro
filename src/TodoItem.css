@@ -1,0 +1,59 @@
+.TodoItem {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 16px;
+  margin-bottom: 8px;
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+
+.TodoItem:hover {
+  border-color: #c0c0c0;
+}
+
+.TodoItem-icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: #a0a0a0;
+  font-size: 18px;
+  transition: color 0.2s ease;
+}
+
+.TodoItem-icon:hover {
+  color: #2c2c2c;
+}
+
+.TodoItem-icon--check {
+  color: #4caf50;
+}
+
+.TodoItem-icon--check:hover {
+  color: #45a049;
+}
+
+.TodoItem-icon--delete {
+  color: #f44336;
+}
+
+.TodoItem-icon--delete:hover {
+  color: #da190b;
+}
+
+.TodoItem-text {
+  flex: 1;
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2c2c2c;
+}
+
+.TodoItem-text--completed {
+  color: #2c2c2c;
+}
